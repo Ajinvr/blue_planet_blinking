@@ -1,10 +1,17 @@
+html,body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 
 .wind{
+border-radius: 50%;
 width: 300px;
 height: 300px;
-margin: 130px auto;
-border-radius: 50%;
 animation:pulse 4.5s ease-in-out alternate infinite;
+text-align: center;
 }
 
 @keyframes pulse {
@@ -21,7 +28,7 @@ animation:pulse 4.5s ease-in-out alternate infinite;
     .wind{
         width: 150px;
         height: 150px;
-        transition: 5s;
+        transition: 3s;
     }
     
 }
