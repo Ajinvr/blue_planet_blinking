@@ -1,0 +1,18 @@
+
+.wind{
+width: 300px;
+height: 300px;
+margin: 130px auto;
+border-radius: 50%;
+animation:pulse 5s ease-in-out alternate infinite;
+}
+
+@keyframes pulse {
+    from{
+    box-shadow: 0px 0px 50px 20px rgb(4, 0, 255);
+    }
+    to{
+        box-shadow: 10px 12px 190px 59px rgb(0, 30, 255);
+    }
+    
+}
